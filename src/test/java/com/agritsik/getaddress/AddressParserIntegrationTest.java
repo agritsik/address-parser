@@ -1,4 +1,4 @@
-package com.agritsik.parsers;
+package com.agritsik.getaddress;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,6 +1,6 @@
-package com.agritsik.parsers.parsers;
+package com.agritsik.getaddress.parsers;
 
-import com.agritsik.parsers.Address;
+import com.agritsik.getaddress.Address;
 import org.apache.commons.lang3.math.NumberUtils;
 
 public class EndsWithParser implements Parser {

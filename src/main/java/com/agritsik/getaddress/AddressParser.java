@@ -1,23 +1,25 @@
-package com.agritsik.parsers;
+package com.agritsik.getaddress;
 
-import com.agritsik.parsers.parsers.*;
+import com.agritsik.getaddress.parsers.*;
 import org.apache.commons.lang3.math.NumberUtils;
 
 public class AddressParser {
 
     /**
-     * Parses address line
-     * @param address address line
-     * @return Address object
+     * Parses an address line. Supports different strategies.
+     *
+     * @param address an address line
+     * @return an Address object
      */
     Address parse(String address){
         return createParser(address).parse(address);
     }
 
     /**
-     * Creates a concrete parser according to the priority
-     * @param address address line
-     * @return Address object
+     * Creates a concrete parser according to the rules and priority
+     *
+     * @param address an address line
+     * @return an Address object
      */
     Parser createParser(String address) {
         if (address.contains(",")) {

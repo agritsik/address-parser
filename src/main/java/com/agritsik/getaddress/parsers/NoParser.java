@@ -1,6 +1,6 @@
-package com.agritsik.parsers.parsers;
+package com.agritsik.getaddress.parsers;
 
-import com.agritsik.parsers.Address;
+import com.agritsik.getaddress.Address;
 
 public class NoParser implements Parser {
 
